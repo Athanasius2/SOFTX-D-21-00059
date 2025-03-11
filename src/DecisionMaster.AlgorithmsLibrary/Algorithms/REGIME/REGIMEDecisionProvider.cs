@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DecisionMaster.AlgorithmsLibrary.Algorithms.REGIME
 {
-    public class REGIMEDecisionProvider
+    public class REGIMEDecisionProvider : IDecisionProvider
     {
         private IDecisionConfiguration _configuration;
         private AlternativesBase _alternatives;
